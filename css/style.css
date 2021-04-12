@@ -1,0 +1,217 @@
+body, main{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Header y barra de navegación */
+
+header{
+    width: 100%;
+    height: 10vh;
+}
+
+header nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9512FA;
+}
+
+header nav ol{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+header nav ol li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    color: azure;
+}
+
+header nav ol li:hover{
+    background-color: #BF05E3;
+    cursor: pointer;
+}
+
+
+.grancaja{
+    width: 100%;
+    height: 90vh;
+    background-image: url('https://www.portalveterinaria.com/upload/20190416131237horses-1414889_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 110%;
+}
+
+.grancaja .caja{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.grancaja .caja .cajita-col{
+    width: 60%;
+    margin-left: 100px;
+}
+
+.grancaja .caja .cajita-col h2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 2.8rem;
+    color: #FD05CA;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.grancaja .caja .cajita-col p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    color:#FD05CA;
+}
+
+.grancaja .caja .cajita-col button{
+    width: 30%;
+    padding: 7px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    background-color:#9512FA;
+    color: azure;
+}
+
+.grancaja .caja .cajita-col button:hover{
+    background-color:#FD05CA;
+    color: #BF05E3;
+    cursor: pointer;
+}
+
+
+.caja-main{
+    width: 100%;
+}
+
+.caja-main .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.caja-main .row .col-main{
+    width: 18em;
+    height: 50vh;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.caja-main .row .col-main:nth-child(1){
+    background-image: url('https://revistamundoequino.com/wp-content/uploads/2018/08/purasangre2-760x490.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150% 85%;
+}
+.caja-main .row .col-main:nth-child(2){
+    background-image: url('https://www.infocaballos.org/wp-content/uploads/2021/01/caballo-frison-466x466.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 85%;
+}
+.caja-main .row .col-main:nth-child(3){
+    background-image: url('https://i.pinimg.com/originals/62/81/58/628158b937df92545395872d611b1657.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 85%;
+}
+
+.caja-main .row .col-main h2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: azure;
+    font-family: 'Barlow', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+}
+
+.caja-main .row .col-main p{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: azure;
+    font-family: 'Barlow', sans-serif;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+
+footer{
+    width: 100%;
+    background-color:#FD05CA;
+}
+
+footer .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .row .col-pie{
+    width: 20em;
+}
+
+footer .row .col-pie:nth-child(1) ul{
+    width: 80%;
+    padding-left: 0px;
+    margin-left: 20%;
+}
+
+footer .row .col-pie:nth-child(1) ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.3rem;
+}
+
+footer .row .col-pie:nth-child(1) ul li:hover{
+    cursor: pointer;
+    color: #BF05E3;
+}
+
+footer .row .col-pie:nth-child(2) ul{
+    width: 100%;
+    padding-left: 0px;
+}
+
+footer .row .col-pie:nth-child(2) ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+footer .row .col-pie:nth-child(2) ul li:hover{
+    cursor: pointer;
+    color: #BF05E3;
+}
+
+footer .row .col-pie:nth-child(3) p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.3rem;
+}
